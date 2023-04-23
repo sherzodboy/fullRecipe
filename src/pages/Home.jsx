@@ -1,13 +1,13 @@
 import Popular from "../components/Popular";
 import Veggie from "../components/Veggie";
 
-const Home = () => {
+function Home() {
   return (
     <div>
-      <Veggie />
       <Popular />
+      <Veggie />
     </div>
   );
-};
+}
 
 export default Home;
