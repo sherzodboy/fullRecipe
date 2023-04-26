@@ -24,7 +24,7 @@ function Cuisine() {
       {cuisine.map((item) => {
         return (
           <Card key={item.id}>
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="img" />
             <h4>{item.title}</h4>
           </Card>
         );
