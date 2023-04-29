@@ -16,24 +16,4 @@ function Pages() {
   );
 }
 
-const DetailWrapper = styled.div`
-  margin-top: 8rem;
-  margin-bottom: 5rem;
-  display: flex;
-  .active {
-    background: linear-gradient(35deg, #494949, #313131);
-    color: white;
-  }
-  h2 {
-    margin-bottom: 1.5rem;
-  }
-  li {
-    font-size: 1rem;
-    line-height: 1.7rem;
-  }
-  ul {
-    margin-top: 1.5rem;
-  }
-`;
-
 export default Pages;
